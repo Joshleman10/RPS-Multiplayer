@@ -1,0 +1,29 @@
+body{
+    background-color:lightgreen;
+    font-family:'Courier New', Courier, monospace;
+}
+button{
+    border-radius:8px;
+    height:25px;
+}
+#playertwo{
+    position: relative;
+    float:right;
+    float:top;
+}
+#playerone{
+    float:left;
+}
+h1{
+    font-size:50px;
+    text-decoration:underline;
+    font-family:'Courier New', Courier, monospace;
+    margin-left:33%;
+}
+
+.scores{
+    margin-left:22%;
+}
+#playeronescore{
+    margin-top:10%;
+}

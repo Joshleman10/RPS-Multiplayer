@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS Multiplayer</title>
+    <h1 id="rps">MULTIPLAYER RPS</h1>
+</head>
+
+<body>
+    <div id="playertotal"></div>
+    <div id="playerone">Player 1
+        <button class="p1buttons" value="rock">ROCK</button>
+        <button class="p1buttons" value="paper">PAPER</button>
+        <button class="p1buttons" value="scissors">SCISSORS</button>
+
+        <div id="playeronechoice">Player 1 Selected: </div>
+    </div>
+    <div id="playertwo">Player 2
+        <button class="p2buttons" value="rock">ROCK</button>
+        <button class="p2buttons" value="paper">PAPER</button>
+        <button class="p2buttons" value="scissors">SCISSORS</button>
+        <div id="playertwochoice">Player 2 Selected:</div>
+    </div>
+
+    <div class="scores">
+        <div class="scores" id="results"></div>
+        <div class="scores" id="playeronescore">Player 1 Score:</div>
+        <div class="scores" id="ties">Ties: </div>
+        <div class="scores" id="playertwoscore">Player 2 Score:</div>
+    </div>
+
+    <div class="chatroom">
+            <div id="messageDiv">TALK TRASH HERE!<br/></div>
+            <input id="nameInput" placeholder="Name"/>
+            <input id="messageInput" placeholder="Message..."/>
+    </div>
+
+    <script type="text/javascript" src="assets/rps.js"></script>
+</body>
+
+</html>
